@@ -15,7 +15,7 @@ This repository contains a chinese simile recognition dataset of "Xiang" which w
 
 ## Introduction
 A *simile* is a figure of speech that directly compares two things using connecting words such as *like*, *as*, *than* in English and
-“像” or “犹如” in Chinese, and these words are called *comparators* (“喻词”). To some extent, simile is a special type of metaphor, but due to the use of comparators, it is much easier to locate compared with other types of metaphors. As a result, it is possible to collect and annotate large scale of simile sentences and investigate data driven simile recognition. Simile recognition task is to find simile sentences and extract simile components, i.e., the tenor (“本体”) and the vehicle (“喻体”). Here are some example sentences which contains "像", a most frequently used comparator in Chinese.
+“像” or “犹如” in Chinese, and these words are called *comparators* (Hanks, 2012) (“喻词”). To some extent, simile is a special type of metaphor, but due to the use of comparators, it is much easier to locate compared with other types of metaphors. As a result, it is possible to collect and annotate large scale of simile sentences and investigate data driven simile recognition. Simile recognition task is to find simile sentences and extract simile components, i.e., the tenor (“本体”) and the vehicle (“喻体”). Here are some example sentences which contains "像", a most frequently used comparator in Chinese.
 
 | Sentence (with translated sentence) | Comment |
 | :----------------------- | ------: |
@@ -37,9 +37,9 @@ This dataset is released in order to support data-driven approaches for simile r
 
 Simile recognition involves two subtasks.
 
-Simile Sentence Classification (SC). For a sentence containing a comparator, determine whether the comparator triggers a metaphorical comparison, in another word, whether the sentence is a simile sentence.
+**Simile Sentence Classification (SC)**. For a sentence containing a comparator, determine whether the comparator triggers a metaphorical comparison, in another word, whether the sentence is a simile sentence.
 
-Simile Component Extraction (CE). For a simile sentence, extract text spans that are corresponding to the tenor and the vehicle objects respectively.
+**Simile Component Extraction (CE)**. For a simile sentence, extract text spans that are corresponding to the tenor and the vehicle objects respectively.
 
 ## Dataset
 ### Overview
@@ -92,7 +92,7 @@ which means:
 
 ### Labels
 #### Labels for Simile Sentence Classification
-Classification labels are assigned to each sentence.
+Labels for simile sentence classification are assigned to each sentence.
 
 | Label | Meaning |
 | :----------------------- | :------ |
@@ -100,7 +100,7 @@ Classification labels are assigned to each sentence.
 | Literal | This sentence does not contain any simile.|
 
 #### Labels for Simile Component Extraction
-Different from labels for simile sentence classification, labels for simile component extraction are in token level. We focus on the two kinds of main simile components, t(enor) and v(ehicle). We convert the annotation to IOBES scheme (indicating Inside, Outside, Beginning, Ending, Single) (Ratinov and Roth , 2009), so there are 9 labels in total, as shown in the table:
+Different from labels for simile sentence classification, labels for simile component extraction are in token level. We focus on the two kinds of main simile components, t(enor) and v(ehicle). We convert the annotation to IOBES scheme (indicating Inside, Outside, Beginning, Ending, Single) (Ratinov and Roth, 2009), so there are 9 labels in total, as shown in the table:
 
 | Label | Meaning |
 | :----------------------- | :------ |
