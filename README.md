@@ -3,15 +3,15 @@
 ## Quick Start
 This repository contains a chinese simile recognition dataset of "Xiang" which was released with the paper [*Neural Multitask Learning for Simile Recognition*](http://aclweb.org/anthology/D18-1183) by Lizhen Liu, Xiao Hu, Wei Song, Ruiji Fu, Ting Liu, Guoping Hu.
 
-　　Definition of [*simile*](https://www.merriam-webster.com/dictionary/simile): a figure of speech comparing two unlike things that is often introduced by *like* or *as*.
+　　**Definition of [*simile*](https://www.merriam-webster.com/dictionary/simile)**: a figure of speech comparing two unlike things that is often introduced by *like* or *as*.
 
-　　Example: this boy is as strong as a bull.
+　　**Example**: this boy is as strong as a bull.
   
-　　Task: given a sentence containing a comparator (*like* in the given example), distinguish whether this sentence is a simile sentence (it is indeed a simile sentence), and extract the tenor (*boy*) and vehicle (*bull*) from it. That is:
+　　**Task**: given a sentence containing a comparator (*like* in the given example), distinguish whether this sentence is a simile sentence (it is indeed a simile sentence), and extract the tenor (*boy*) and vehicle (*bull*) from it. That is:
   
 　　this [boy]<sup>tenor</sup> is as strong as<sup>comparator</sup> a [bull]<sup>vehicle</sup>.
   
-　　Data: about 11.3k sentences, manually annotated with 1. simile sentence or not, 2. the simile components. The whole dataset was divided into training, development, test set as described in our paper.
+　　**Data**: about 11.3k sentences, manually annotated with 1. simile sentence or not, 2. the simile components. The whole dataset was divided into training, development, test set as described in our paper.
 
 ## Introduction
 A *simile* is a figure of speech that directly compares two things using connecting words such as *like*, *as*, *than* in English and
