@@ -133,7 +133,7 @@ The dataset is released with this paper:
       url = 	"http://aclweb.org/anthology/D18-1183"
     }
 
-The reference to simile concept and some other references:
+The references of explaining simile concepts and some other references:
 
 [1] Patrick Hanks. 2012. The roles and structure of comparisons, similes, and metaphors in natural language (an analogical system). Prose (in honor of the Dickens Bicentennial), page 5.
 
