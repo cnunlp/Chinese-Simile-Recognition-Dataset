@@ -44,17 +44,17 @@ This dataset consists of 11.3k sentences extracted from Chinese student essays w
 |\#All Sentence | 11337  |
 |\#Simile Sentence | 5088  |
 |\#Literal Sentence | 6249 |
-|\#Tokens | 334*k* |
+|\#Tokens | 334k |
 |\#Tenor | 5183 |
 |\#Vehicle | 5119 |
-|\#Tenor-vehicle Pairs | 5214 |
-|Avg. \#Tokens per Tenor | 1 |
-|Avg. \#Tokens per Vehicle | 1.056 |
-|Avg. \#Tokens per Sentence | 29 |
-|Avg. \#Pair per Simile Sentence | 1.024 |
-|\#Tenor concepts | 1680 |
-|\#Vehicle concepts | 1972 |
-|\#Unique Tenor-vehicle Pairs | 4521 |
+|\#Unique tenor concept | 1680 |
+|\#Unique vehicle concept | 1972 |
+|\#Tenor-vehicle pair | 5214 |
+|\#Unique tenor-vehicle pair | 4521 |
+|Avg. \#tokens per tenor | 1.033 |
+|Avg. \#tokens per vehicle | 1.056 |
+|Avg. \#tokens per sentence | 29.47 |
+|Avg. \#pair per simile sentence | 1.024 |
 
 ## Data Format
 The data is basically in CoNLL-type tab-separated format. Classification label in the first line, and one word per line in the following lines, separate column for token and label for component extraction, empty line between sentences. Here is an example:
@@ -106,6 +106,26 @@ Different from classification labels, component extraction labels are in token l
 | O | Not component |
 
 ## Reference
-Patrick Hanks. 2012. The roles and structure of comparisons, similes, and metaphors in natural language (an analogical system). Prose (in honor of the Dickens Bicentennial), page 5.
-Lev Ratinov and Dan Roth. 2009. Conll ’09 design challenges and misconceptions in named entity recognition. In CoNLL ’09: Proceedings of
+The dataset is released with this paper:
+
+    @InProceedings{D18-1183,
+      author = 	"Liu, Lizhen
+            and Hu, Xiao
+            and Song, Wei
+            and Fu, Ruiji
+            and Liu, Ting
+            and Hu, Guoping",
+      title = 	"Neural Multitask Learning for Simile Recognition",
+      booktitle = 	"Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      year = 	"2018",
+      publisher = 	"Association for Computational Linguistics",
+      pages = 	"1543--1553",
+      location = 	"Brussels, Belgium",
+      url = 	"http://aclweb.org/anthology/D18-1183"
+    }
+
+The reference to simile concept and some other references:
+[1] Patrick Hanks. 2012. The roles and structure of comparisons, similes, and metaphors in natural language (an analogical system). Prose (in honor of the Dickens Bicentennial), page 5.
+
+[2] Lev Ratinov and Dan Roth. 2009. Conll ’09 design challenges and misconceptions in named entity recognition. In CoNLL ’09: Proceedings of
 the Thirteenth Conference on Computational Natural Language Learning, pages 147–155.
