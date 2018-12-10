@@ -1,7 +1,12 @@
 # coding=utf-8
 # Pairwise evaluation script for repo Chinese-Simile-Recognition-Dataset.
-# We adopted grouped (t)enor and (v)ehicle chunks in a sentence as t-v pairs, and evaluate the difference between gold annotations and predicted results based on the count of t-v pairs.
-# The input of this script should be an iterable object, just modify the iterable2sents function to fit your own format and generate list of sentences containg tokens, labels_true, labels_pred. By default, a conll format file is recommanded, an example is given in the predicted_example.tsv. The output of "python paireval.py predicted_example.tsv" should be "processed 104 tokens with 2 pairs; found: 3 pairs; correct: 1. precision:  33.33%; recall:  50.00%; FB1:  40.00".
+# We adopted grouped (t)enor and (v)ehicle chunks in a sentence as t-v pairs, and evaluate the difference between 
+#  gold annotations and predicted results based on the count of t-v pairs.
+# The input of this script should be an iterable object, just modify the iterable2sents function to fit your own 
+#  format and generate list of sentences containg tokens, labels_true, labels_pred. By default, a conll format file 
+#  is recommanded, an example is given in the predicted_example.tsv. The output of 
+#  "python paireval.py predicted_example.tsv" should be 
+#  "processed 104 tokens with 2 pairs; found: 3 pairs; correct: 1. precision:  33.33%; recall:  50.00%; FB1:  40.00".
 # Modified from conll evaluation script, https://github.com/marekrei/sequence-labeler/blob/master/conlleval.py
 
 import sys
