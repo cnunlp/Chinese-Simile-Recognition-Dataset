@@ -3,8 +3,6 @@
 ## What's new
 - 2018/12/10 We have just submitted the *pair-wise evaluate script* used in our paper, and the pretrained word embeddings is also released in /scripts/pretrained_embeddings.emb.
 
-If you have any questions, feel free to contact Hu, Xiao at xiaohu@cnu.edu.cn, I will offer some help with all my efforts.
-
 ## Contents  
 - [Quick Start](#quick-start)
 - [Introduction](#introduction)
@@ -16,6 +14,7 @@ If you have any questions, feel free to contact Hu, Xiao at xiaohu@cnu.edu.cn, I
     - [Labels for Simile Sentence Classification](#labels-for-simile-sentence-classification)
     - [Labels for Simile Component Extraction](#labels-for-simile-component-extraction)
 - [Reference](#reference)
+- [Contact Us](#contact-us)
 
 ## Quick Start
 This repository contains a chinese simile recognition dataset of "Xiang" which was released with the paper [*Neural Multitask Learning for Simile Recognition*](http://aclweb.org/anthology/D18-1183) by Lizhen Liu, Xiao Hu, Wei Song, Ruiji Fu, Ting Liu, Guoping Hu.
@@ -156,3 +155,6 @@ The references of explaining simile concepts and some other references:
 
 [2] Lev Ratinov and Dan Roth. 2009. Conll ’09 design challenges and misconceptions in named entity recognition. In CoNLL ’09: Proceedings of
 the Thirteenth Conference on Computational Natural Language Learning, pages 147–155.
+
+## Contact Us
+If you have any questions, feel free to contact Hu, Xiao at xiaohu@cnu.edu.cn, I will offer some help with all my efforts.
