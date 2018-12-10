@@ -1,5 +1,22 @@
 # Chinese-Simile-Recognition-Dataset
 
+## What's new
+- 2018/12/10 We have just submitted the *pair-wise evaluate script* used in our paper, and the pretrained word embeddings is also released in /scripts/pretrained_embeddings.emb.
+
+If you have any questions, feel free to contact Hu, Xiao at xiaohu@cnu.edu.cn, I will offer some help with all my efforts.
+
+## Contents  
+- [Quick Start](#quick-start)
+- [Introduction](#introduction)
+- [Task Definition](#task-definition)
+- [Dataset](#dataset)
+  - [Overview](#overview)
+  - [Data Format](#data-format)
+  - [Labels Definition](#labels-definition)
+    - [Labels for Simile Sentence Classification](#labels-for-simile-sentence-classification)
+    - [Labels for Simile Component Extraction](#labels-for-simile-component-extraction)
+- [Reference](#reference)
+
 ## Quick Start
 This repository contains a chinese simile recognition dataset of "Xiang" which was released with the paper [*Neural Multitask Learning for Simile Recognition*](http://aclweb.org/anthology/D18-1183) by Lizhen Liu, Xiao Hu, Wei Song, Ruiji Fu, Ting Liu, Guoping Hu.
 
@@ -37,9 +54,9 @@ This dataset is released in order to support data-driven approaches for simile r
 
 Simile recognition involves two subtasks.
 
-**Simile Sentence Classification (SC)**. For a sentence containing a comparator, determine whether the comparator triggers a metaphorical comparison, in another word, whether the sentence is a simile sentence.
+ - **Simile Sentence Classification (SC)**. For a sentence containing a comparator, determine whether the comparator triggers a metaphorical comparison, in another word, whether the sentence is a simile sentence.
 
-**Simile Component Extraction (CE)**. For a simile sentence, extract text spans that are corresponding to the tenor and the vehicle objects respectively.
+ - **Simile Component Extraction (CE)**. For a simile sentence, extract text spans that are corresponding to the tenor and the vehicle objects respectively.
 
 ## Dataset
 ### Overview
@@ -90,7 +107,7 @@ which means:
     (token n)   (component extraction label for token n)
     
 
-### Labels
+### Labels Definition
 #### Labels for Simile Sentence Classification
 Labels for simile sentence classification are assigned to each sentence.
 
