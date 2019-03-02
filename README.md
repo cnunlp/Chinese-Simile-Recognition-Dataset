@@ -134,14 +134,14 @@ Different from labels for simile sentence classification, labels for simile comp
 
 ## Corrigendum
 1. page 1546 -> 4.2 Shared Representation -> formula (1)   
-  original:  
+  Original:  
 　　<a href="https://www.codecogs.com/eqnedit.php?latex=\overrightarrow{h_t}=LSTM(x_{t},&space;LSTM(\overrightarrow{h_{t-1}}))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\overrightarrow{h_t}=LSTM(x_{t},&space;LSTM(\overrightarrow{h_{t-1}}))" title="\overrightarrow{h_t}=LSTM(x_{t}, LSTM(\overrightarrow{h_{t-1}}))" /></a>  
-  revised:  
+  Revised:  
 　　<a href="https://www.codecogs.com/eqnedit.php?latex=\overrightarrow{h_t}=LSTM(x_{t},&space;\overrightarrow{h_{t-1}})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\overrightarrow{h_t}=LSTM(x_{t},&space;\overrightarrow{h_{t-1}})" title="\overrightarrow{h_t}=LSTM(x_{t}, \overrightarrow{h_{t-1}})" /></a>  
 2. page 1548 -> 4.5 Task 3: Language Modeling -> paragragh 3 -> line 1  
-  original:  
+  Original:  
 　　And the ***vehicle*** word is predicted by maximizing  
-  revised:  
+  Revised:  
 　　And the ***target*** word is predicted by maximizing  
 
 ## Reference
