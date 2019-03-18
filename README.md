@@ -1,6 +1,7 @@
 # Chinese-Simile-Recognition-Dataset
 
 ## What's new
+- 2019/03/02 We have added a Corrigendum section to describe some typos should be clarified.  
 - 2018/12/10 We have just submitted the *pair-wise evaluate script* used in our paper, and the pretrained word embeddings is also released in /scripts/pretrained_embeddings.emb.
 
 ## Contents  
@@ -13,6 +14,7 @@
   - [Labels Definition](#labels-definition)
     - [Labels for Simile Sentence Classification](#labels-for-simile-sentence-classification)
     - [Labels for Simile Component Extraction](#labels-for-simile-component-extraction)
+- [Corrigendum](#corrigendum)
 - [Reference](#reference)
 - [Contact Us](#contact-us)
 
@@ -129,6 +131,18 @@ Different from labels for simile sentence classification, labels for simile comp
 | vm | The middle of a vehicle |
 | ve | The end of a vehicle |
 | O | None |
+
+## Corrigendum
+1. page 1546 -> 4.2 Shared Representation -> formula (1)   
+  Original:  
+　　<a href="https://www.codecogs.com/eqnedit.php?latex=\overrightarrow{h_t}=LSTM(x_{t},&space;LSTM(\overrightarrow{h_{t-1}}))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\overrightarrow{h_t}=LSTM(x_{t},&space;LSTM(\overrightarrow{h_{t-1}}))" title="\overrightarrow{h_t}=LSTM(x_{t}, LSTM(\overrightarrow{h_{t-1}}))" /></a>  
+  Revised:  
+　　<a href="https://www.codecogs.com/eqnedit.php?latex=\overrightarrow{h_t}=LSTM(x_{t},&space;\overrightarrow{h_{t-1}})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\overrightarrow{h_t}=LSTM(x_{t},&space;\overrightarrow{h_{t-1}})" title="\overrightarrow{h_t}=LSTM(x_{t}, \overrightarrow{h_{t-1}})" /></a>  
+2. page 1548 -> 4.5 Task 3: Language Modeling -> paragragh 3 -> line 1  
+  Original:  
+　　And the ***vehicle*** word is predicted by maximizing  
+  Revised:  
+　　And the ***target*** word is predicted by maximizing  
 
 ## Reference
 The dataset is released with this paper:

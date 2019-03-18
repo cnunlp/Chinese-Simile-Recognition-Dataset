@@ -143,7 +143,10 @@ def evaluate(iterable, report=False):
             if correct_chunk['t'] == 1 and correct_chunk['v'] == 1:
                 pair_hit += 1
         elif num_t > 1 and num_v > 1:
-            pair_hit += correct_chunk['t'] if correct_chunk['t'] < correct_chunk['v'] else correct_chunk['v']
+            if correct_chunk['t']==0 or correct_chunk['v']==0:
+                pair_hit+=0
+            else:
+                pair_hit+=max(correct_chunk['v'], correct_chunk['t'])
         elif num_t > 1 and num_v == 1:
             pair_hit += correct_chunk['t'] if correct_chunk['v'] == 1 else 0
         elif num_t == 1 and num_v > 1:
