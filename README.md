@@ -146,7 +146,7 @@ Different from labels for simile sentence classification, labels for simile comp
 
 ## Reference
 The dataset is released with this paper:
-
+```bibtex
     @InProceedings{D18-1183,
       author = 	"Liu, Lizhen
             and Hu, Xiao
@@ -162,7 +162,7 @@ The dataset is released with this paper:
       location = 	"Brussels, Belgium",
       url = 	"http://aclweb.org/anthology/D18-1183"
     }
-
+```
 The references of explaining simile concepts and some other references:
 
 [1] Patrick Hanks. 2012. The roles and structure of comparisons, similes, and metaphors in natural language (an analogical system). Prose (in honor of the Dickens Bicentennial), page 5.
