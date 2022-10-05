@@ -1,7 +1,7 @@
 # Chinese-Simile-Recognition-Dataset
 
 ## What's new
-- 2019/03/02 We have added a Corrigendum section to describe some typos that should be clarified.  
+- 2019/03/02 We have added a Corrigendum section to clarify some typos.  
 - 2018/12/10 We have just submitted the *pair-wise evaluate script* used in our paper, and the pretrained word embeddings is also released in /scripts/pretrained_embeddings.emb.
 
 ## Contents  
